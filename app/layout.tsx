@@ -38,7 +38,11 @@ export default function RootLayout({
             <Header />
             {children}
             <Footer />
-            <Toaster position="bottom-left" />
+            <Toaster position="bottom-left" toastOptions={{
+              style: {
+                padding: '16px'
+              }
+            }}/>
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>

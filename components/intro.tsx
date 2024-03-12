@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import profilePic from "../public/Avatar_SydneyHarbour.jpg";
 import Link from "next/link";
@@ -9,14 +9,14 @@ import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import AnimatedText from "./animated-text";
 
 const Intro = () => {
   const { ref } = useSectionInView("Home");
-  const { setActiveSection, setTimeOfLastClick } =
-    useActiveSectionContext();
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section ref={ref} className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section ref={ref} className="mb-28 max-w-[50rem] text-center sm:mb-28">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -50,7 +50,7 @@ const Intro = () => {
         </div>
       </div>
 
-      <motion.h1
+      {/* <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -59,7 +59,13 @@ const Intro = () => {
         <span className="font-bold">front-end React developer</span> who is{" "}
         <span className="font-bold">looking for a job</span>. I enjoy building{" "}
         <span className="italic">aesthetic sites</span>.
-      </motion.h1>
+      </motion.h1> */}
+      
+      <AnimatedText
+        text="Hello, I'm Andrew. I'm a front-end React developer who is looking for a graduate job. I enjoy building aesthetic sites."
+        className="mb-20 mt-12 px-4 text-2xl font-semibold !leading-[1.6] sm:text-4xl"
+        el="h1"
+      />
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
@@ -86,6 +92,7 @@ const Intro = () => {
           Download CV{" "}
           <HiDownload className="opacity-70 group-hover:translate-y-0.5 transition" />
         </a>
+        <div className="flex flex-row gap-3">
         <a
           href="https://www.linkedin.com/in/andrewnguyen-nsw/"
           target="_blank"
@@ -100,6 +107,7 @@ const Intro = () => {
         >
           <BsGithub />
         </a>
+        </div>
       </motion.div>
     </section>
   );

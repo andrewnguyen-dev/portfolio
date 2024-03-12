@@ -8,6 +8,7 @@ const SubmitBtn = () => {
   return (
     <button
       type="submit"
+      aria-label="submit-button"
       disabled={pending}
       className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 
       text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 

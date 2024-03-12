@@ -29,7 +29,8 @@ const Skills = () => {
         {skillsData.map((skill, index) => (
           <motion.li
             key={index}
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80
+            hover:bg-gray-950 hover:bg-opacity-75 hover:text-white/90 dark:hover:bg-gray-300 dark:hover:text-gray-800 backdrop-blur-3xl backdrop-filter transition-color duration-30"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
