@@ -16,7 +16,7 @@ const Intro = () => {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section ref={ref} className="mb-28 max-w-[50rem] text-center sm:mb-28">
+    <section ref={ref} className="mb-28 max-w-[50rem] text-center">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -85,8 +85,8 @@ const Intro = () => {
           <BsArrowRight className="group-hover:translate-x-1 opacity-70" />
         </Link>
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="/CV.pdf"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/80"
+          href="/AndrewNguyen_WebDeveloper.pdf"
           download
         >
           Download CV{" "}
@@ -96,14 +96,14 @@ const Intro = () => {
         <a
           href="https://www.linkedin.com/in/andrewnguyen-nsw/"
           target="_blank"
-          className="bg-white p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/80"
         >
           <BsLinkedin />
         </a>
         <a
           href="https://github.com/andrewnguyen-nsw/"
           target="_blank"
-          className="bg-white p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/80"
         >
           <BsGithub />
         </a>

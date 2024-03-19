@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import prj1 from "@/public/prj1.jpg";
+import prj2 from "@/public/prj2.jpg";
+import prj3 from "@/public/prj3.jpg";
 
 export const links = [
   {
@@ -33,6 +33,53 @@ export const links = [
   },
 ] as const;
 
+export const projectsData = [
+  {
+    title: "Andrew Nguyen Photography Portfolio",
+    description:
+      "A full-stack web application showcasing photographic talents and offering freelance services (photoshoots and private tour guidance) while also marketing Lightroom Presets for sale.",
+    tags: [
+      "React",
+      "Next.js",
+      "MongoDB",
+      "Tailwind",
+      "Framer Motion",
+      "Stripe API",
+      "Cloudinary API",
+      "Google OAuth",
+    ],
+    imageUrl: prj1,
+    webUrl: "https://andrewnguyen.vercel.app/",
+  },
+  {
+    title: "MrXpress Mobile Repair",
+    description:
+      "A digital platform for mobile repair services, operating as a two-sided marketplace, efficiently linking individuals with damaged phones to a network of professionally certified technicians for prompt service.",
+    tags: ["React", "Laravel", "Bootstrap", "MySQL", "Stripe API", "AWS"],
+    imageUrl: prj2,
+    webUrl: "",
+  },
+] as const;
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Framer Motion",
+  "Tailwind",
+  "Bootstrap",
+  "Node.js",
+  "Laravel",
+  "MongoDB",
+  "MySQL",
+  "Python",
+  "Stripe.js",
+  "Git",
+] as const;
+
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
@@ -58,50 +105,4 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
-] as const;
-
-export const projectsData = [
-  {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
-] as const;
-
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
