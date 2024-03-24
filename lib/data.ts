@@ -52,6 +52,14 @@ export const projectsData = [
     webUrl: "https://andrewnguyen.vercel.app/",
   },
   {
+    title: "Focusmate",
+    description:
+      "A Pomodoro timer enhances focus for work or study, offering customizable timers, background images, and the ability to mix background music.",
+    tags: ["React (TypeScript)", "Next.js", "Shadcn/UI", "Tailwind", "React Context API"],
+    imageUrl: prj3,
+    webUrl: "https://focusmate.vercel.app/",
+  },
+  {
     title: "MrXpress Mobile Repair",
     description:
       "A digital platform for mobile repair services, operating as a two-sided marketplace, efficiently linking individuals with damaged phones to a network of professionally certified technicians for prompt service.",
