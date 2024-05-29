@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import prj0 from "@/public/prj0.jpg";
 import prj1 from "@/public/prj1.jpg";
 import prj2 from "@/public/prj2.jpg";
 import prj3 from "@/public/prj3.jpg";
@@ -34,6 +35,24 @@ export const links = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "CareerCraft",
+    description:
+      "[In Progress] An AI-powered web application that helps users track job applications and tailor their resumes, cover letters,... using AI.",
+    tags: [
+      "React",
+      "Next.js",
+      "Vercel AI SDK",
+      "PostgreSQL",
+      "Tailwind",
+      "Framer Motion",
+      "Tanstack Table",
+      "Stripe API",
+      "Clerk",
+    ],
+    imageUrl: prj0,
+    webUrl: "https://itscareercraft.vercel.app/",
+  },
   {
     title: "Andrew Nguyen Photography Portfolio",
     description:
@@ -101,7 +120,7 @@ export const experiencesData = [
     title: "Graduate",
     location: "Western Sydney University",
     description:
-      "I will finish my Bachelor of Information and Communication Technology (ICT) after 2.5 years of study. I am also an inaugural member of The Creator's Club",
+      "I will finish my Bachelor of Information and Communication Technology (ICT) after 2.5 years of study. I am also an inaugural member of The Creator's Club.",
     icon: React.createElement(LuGraduationCap),
     date: "Jul 2024",
   },

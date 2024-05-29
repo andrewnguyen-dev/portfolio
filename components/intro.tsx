@@ -62,7 +62,7 @@ const Intro = () => {
       </motion.h1> */}
       
       <AnimatedText
-        text="Hello, I'm Andrew. I'm a front-end React developer who is looking for a graduate job. I enjoy building aesthetic sites."
+        text="Hello, I'm Andrew. I'm a full-stack React developer who is looking for a graduate job. I enjoy building aesthetic sites."
         className="mb-20 mt-12 px-4 text-2xl font-semibold !leading-[1.6] sm:text-4xl"
         el="h1"
       />
