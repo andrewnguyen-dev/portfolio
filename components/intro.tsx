@@ -94,14 +94,14 @@ const Intro = () => {
         </a>
         <div className="flex flex-row gap-3">
         <a
-          href="https://www.linkedin.com/in/andrewnguyen-nsw/"
+          href="https://www.linkedin.com/in/andrewnguyen-dev/"
           target="_blank"
           className="bg-white p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/80"
         >
           <BsLinkedin />
         </a>
         <a
-          href="https://github.com/andrewnguyen-nsw/"
+          href="https://github.com/andrewnguyen-dev/"
           target="_blank"
           className="bg-white p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/80"
         >
