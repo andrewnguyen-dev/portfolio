@@ -112,7 +112,7 @@ export const experiencesData = [
     title: "Web Developer",
     location: "Sydney, NSW",
     description:
-      "I am working as a web developer for the new WPMIS 2.0 (Work Placement Management Information System 2.0) web application at WSU, aimed at revolutionizing student job placement management.",
+      "I am working as a web developer intern for the new WPMIS 2.0 (Work Placement Management Information System 2.0) web application at WSU, aimed at revolutionizing student job placement management.",
     icon: React.createElement(FaReact),
     date: "Jan 2024 - Present",
   },
