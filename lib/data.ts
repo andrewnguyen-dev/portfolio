@@ -1,6 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { FaSuitcase } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import prj0 from "@/public/prj0.jpg";
 import prj1 from "@/public/prj1.jpg";
@@ -99,6 +99,7 @@ export const skillsData = [
   "Tailwind",
   "Bootstrap",
   "Node.js",
+  "PHP",
   "Laravel",
   "MongoDB",
   "MySQL",
@@ -109,27 +110,35 @@ export const skillsData = [
 
 export const experiencesData = [
   {
-    title: "Web Developer",
-    location: "Sydney, NSW",
+    title: "Junior Full-Stack Developer",
+    location: "SolarQuotes",
     description:
-      "I am working as a web developer intern for the new WPMIS 2.0 (Work Placement Management Information System 2.0) web application at WSU, aimed at revolutionizing student job placement management.",
-    icon: React.createElement(FaReact),
-    date: "Jan 2024 - Present",
+      "I'm now a full-stack developer working remotely at SolarQuotes. I'm responsible for developing new features and maintaining the company's website, which helps users find the best solar solutions for their homes.",
+    icon: React.createElement(FaSuitcase),
+    date: "Jul 2024 - present",
+  },
+  {
+    title: "Junior Full-Stack Developer (Contract)",
+    location: "Western Sydney University",
+    description:
+      "I'm working as a main developer for the AI Journal Bot, which helps students track their progress and journal in an WSU's subject.",
+    icon: React.createElement(FaSuitcase),
+    date: "Jul 2024 - present",
   },
   {
     title: "Graduate",
     location: "Western Sydney University",
     description:
-      "I will finish my Bachelor of Information and Communication Technology (ICT) after 2.5 years of study. I am also an inaugural member of The Creator's Club.",
+      "I finished my Bachelor of Information and Communication Technology (ICT) after 2.5 years of study. I am also an inaugural member of The Creator's Club.",
     icon: React.createElement(LuGraduationCap),
-    date: "Jul 2024",
+    date: "Aug 2024",
   },
-  // {
-  //   title: "Full-Stack Developer",
-  //   location: "Houston, TX",
-  //   description:
-  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2021 - present",
-  // },
+  {
+    title: "Web Developer (Internship)",
+    location: "Western Sydney University",
+    description:
+      "I worked as a web developer intern for the new WPMIS 2.0 (Work Placement Management Information System 2.0) web application at WSU, aimed at revolutionizing student job placement management.",
+    icon: React.createElement(FaReact),
+    date: "Jan 2024 - Jul 2024",
+  },
 ] as const;

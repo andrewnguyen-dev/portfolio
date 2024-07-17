@@ -49,20 +49,9 @@ const Intro = () => {
           </motion.span>
         </div>
       </div>
-
-      {/* <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">Hello, I'm Andrew.</span> I'm a{" "}
-        <span className="font-bold">front-end React developer</span> who is{" "}
-        <span className="font-bold">looking for a job</span>. I enjoy building{" "}
-        <span className="italic">aesthetic sites</span>.
-      </motion.h1> */}
       
       <AnimatedText
-        text="Hello, I'm Andrew. I'm a full-stack React developer who is looking for a graduate job. I enjoy building aesthetic sites."
+        text="Hello, I'm Andrew. I'm a junior full-stack web developer. I enjoy building aesthetic sites."
         className="mb-20 mt-12 px-4 text-2xl font-semibold !leading-[1.6] sm:text-4xl"
         el="h1"
       />
