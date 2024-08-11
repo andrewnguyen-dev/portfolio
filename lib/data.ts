@@ -74,7 +74,13 @@ export const projectsData = [
     title: "Focusmate",
     description:
       "A Pomodoro timer enhances focus for work or study, offering customizable timers, background images, and the ability to mix background music.",
-    tags: ["React (TypeScript)", "Next.js", "Shadcn/UI", "Tailwind", "React Context API"],
+    tags: [
+      "React (TypeScript)",
+      "Next.js",
+      "Shadcn/UI",
+      "Tailwind",
+      "React Context API",
+    ],
     imageUrl: prj3,
     webUrl: "https://focusmate.vercel.app/",
   },
@@ -110,12 +116,20 @@ export const skillsData = [
 
 export const experiencesData = [
   {
+    title: "Graduated",
+    location: "Western Sydney University",
+    description:
+    "I finished my Bachelor of Information and Communication Technology (ICT) after 2.5 years of study. I am also an inaugural member of The Creator's Club.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Aug 2024",
+  },
+  {
     title: "Junior Full-Stack Developer",
     location: "SolarQuotes",
     description:
       "I'm now a full-stack developer working remotely at SolarQuotes. I'm responsible for developing new features and maintaining the company's website, which helps users find the best solar solutions for their homes.",
     icon: React.createElement(FaSuitcase),
-    date: "Jul 2024 - present",
+    date: "May 2024 - present",
   },
   {
     title: "Junior Full-Stack Developer (Contract)",
@@ -123,15 +137,7 @@ export const experiencesData = [
     description:
       "I'm working as a main developer for the AI Journal Bot, which helps students track their progress and journal in an WSU's subject.",
     icon: React.createElement(FaSuitcase),
-    date: "Jul 2024 - present",
-  },
-  {
-    title: "Graduate",
-    location: "Western Sydney University",
-    description:
-      "I finished my Bachelor of Information and Communication Technology (ICT) after 2.5 years of study. I am also an inaugural member of The Creator's Club.",
-    icon: React.createElement(LuGraduationCap),
-    date: "Aug 2024",
+    date: "May 2024 - present",
   },
   {
     title: "Web Developer (Internship)",

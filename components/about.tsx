@@ -19,7 +19,7 @@ const About = () => {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        I am a final year ICT student at Western Sydney University, with a strong passion
+        I am just graduated from Western Sydney University, with a strong passion
         for front-end development. Throughout my academic journey, I've excelled in my
         studies, reflected in my GPA of 6.214/7.0 and recognition on the 2022 & 2023
         Dean’s Merit List. My education has equipped me with a solid foundation in web
