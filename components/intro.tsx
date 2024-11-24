@@ -9,7 +9,7 @@ import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import AnimatedText from "./animated-text";
+import WordFadeIn from "@/components/magicui/word-fade-in";
 
 const Intro = () => {
   const { ref } = useSectionInView("Home");
@@ -50,11 +50,7 @@ const Intro = () => {
         </div>
       </div>
       
-      <AnimatedText
-        text="Hello, I'm Andrew. I'm a junior full-stack web developer. I enjoy building aesthetic sites."
-        className="mb-20 mt-12 px-4 text-2xl font-semibold !leading-[1.6] sm:text-4xl"
-        el="h1"
-      />
+      <WordFadeIn words="Hello, I'm Andrew. I'm a junior full-stack web developer. I enjoy building aesthetic sites." />
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"

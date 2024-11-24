@@ -13,6 +13,7 @@ const Project = ({
   tags,
   imageUrl,
   webUrl,
+  buttonText
 }: ProjectProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -64,7 +65,7 @@ const Project = ({
               href={webUrl}
               className="absolute bottom-6 group-odd:right-6 group-even:left-6 px-4 py-2 opacity-60 bg-black text-gray-100 rounded-full outline-none focus:scale-110 hover:scale-110 transition"
             >
-              Visit website
+              {buttonText}
             </a>
           </button>
         )}

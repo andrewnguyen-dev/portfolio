@@ -2,10 +2,11 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { FaSuitcase } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import prj0 from "@/public/prj0.jpg";
-import prj1 from "@/public/prj1.jpg";
-import prj2 from "@/public/prj2.jpg";
-import prj3 from "@/public/prj3.jpg";
+import prj20 from "@/public/prj20.jpg";
+import prj21 from "@/public/prj21.jpg";
+import prj22 from "@/public/prj22.jpg";
+import prj23 from "@/public/prj23.jpg";
+import prj24 from "@/public/prj24.jpg";
 
 export const links = [
   {
@@ -36,9 +37,26 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "AI Journal Mate",
+    description:
+      "A web application integrating AI to provide personalized, scalable feedback for student reflective diaries and team collaboration in capstone projects, supporting research on AI-driven education.",
+    tags: [
+      "React",
+      "Next.js",
+      "Vercel AI SDK",
+      "PostgreSQL",
+      "Tailwind",
+      "ShadcnUI",
+      "AuthJS",
+    ],
+    imageUrl: prj20,
+    webUrl: "https://www.linkedin.com/posts/andrewnguyen-dev_aiineducation-webdevelopment-nextjs-activity-7266286474281533440-_Qe_?utm_source=share&utm_medium=member_desktop",
+    buttonText: "See More"
+  },
+  {
     title: "CareerCraft",
     description:
-      "[In Progress] An AI-powered web application that helps users track job applications and tailor their resumes, cover letters,... using AI.",
+      "An AI-powered web application that helps users track job applications and tailor their resumes, cover letters,... using AI.",
     tags: [
       "React",
       "Next.js",
@@ -50,8 +68,9 @@ export const projectsData = [
       "Stripe API",
       "Clerk",
     ],
-    imageUrl: prj0,
+    imageUrl: prj21,
     webUrl: "https://itscareercraft.vercel.app/",
+    buttonText: "Visit Website"
   },
   {
     title: "Andrew Nguyen Photography Portfolio",
@@ -67,30 +86,33 @@ export const projectsData = [
       "Cloudinary API",
       "Google OAuth",
     ],
-    imageUrl: prj1,
+    imageUrl: prj22,
     webUrl: "https://andrewnguyen.vercel.app/",
+    buttonText: "Visit Website"
   },
   {
     title: "Focusmate",
     description:
       "A Pomodoro timer enhances focus for work or study, offering customizable timers, background images, and the ability to mix background music.",
     tags: [
-      "React (TypeScript)",
+      "React",
       "Next.js",
       "Shadcn/UI",
       "Tailwind",
       "React Context API",
     ],
-    imageUrl: prj3,
+    imageUrl: prj23,
     webUrl: "https://focusmate.vercel.app/",
+    buttonText: "Visit Website"
   },
   {
     title: "MrXpress Mobile Repair",
     description:
       "A digital platform for mobile repair services, operating as a two-sided marketplace, efficiently linking individuals with damaged phones to a network of professionally certified technicians for prompt service.",
     tags: ["React", "Laravel", "Bootstrap", "MySQL", "Stripe API", "AWS"],
-    imageUrl: prj2,
-    webUrl: "",
+    imageUrl: prj24,
+    webUrl: "https://mrxpress-frontend.vercel.app/",
+    buttonText: "Visit Website"
   },
 ] as const;
 

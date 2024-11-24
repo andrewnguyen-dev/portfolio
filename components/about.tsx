@@ -21,7 +21,7 @@ const About = () => {
       <p className="mb-3">
         I am just graduated from Western Sydney University, with a strong passion
         for front-end development. Throughout my academic journey, I've excelled in my
-        studies, reflected in my GPA of 6.214/7.0 and recognition on the 2022 & 2023
+        studies, reflected in my GPA of 6.3/7.0 and recognition on the 2022 & 2023
         Dean’s Merit List. My education has equipped me with a solid foundation in web
         system development, programming techniques, and database design, which I've
         applied in various projects.
