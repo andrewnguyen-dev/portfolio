@@ -65,7 +65,6 @@ export const projectsData = [
       "Tailwind",
       "Framer Motion",
       "Tanstack Table",
-      "Stripe API",
       "Clerk",
     ],
     imageUrl: prj21,
