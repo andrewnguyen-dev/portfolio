@@ -19,18 +19,10 @@ const About = () => {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        I am just graduated from Western Sydney University, with a strong passion
-        for front-end development. Throughout my academic journey, I've excelled in my
-        studies, reflected in my GPA of 6.3/7.0 and recognition on the 2022 & 2023
-        Dean’s Merit List. My education has equipped me with a solid foundation in web
-        system development, programming techniques, and database design, which I've
-        applied in various projects.
+        I’m a web developer with over one year of professional experience, building real-world solutions since graduating from Western Sydney University. With a GPA of 6.3/7.0 and Dean’s Merit List recognition in 2022 & 2023, I’ve built on my academic foundation in web systems, programming, and database design through hands-on work and impactful projects.
       </p>
       <p>
-        While front-end development is my area of strength and passion, I also possess a
-        well-rounded understanding of back-end development and UI/UX principles. This
-        allows me to create websites that are not only visually appealing and functional
-        but also user-friendly and optimized for performance.
+        My passion lies in front-end development, where I bring designs to life with clean, responsive, and performant code. At the same time, my solid understanding of back-end development and UI/UX principles enables me to deliver websites that are not only visually engaging but also intuitive and robust across the stack.
       </p>
     </motion.section>
   );
